@@ -88707,8 +88707,8 @@ i=s>1?i[0].b+" & "+(s-1)+" more":i[0].b
 i=A.dt(i,m.d,16,B.bz)
 s=A.aBS(j,m).kX(0.2)
 r=A.eY(10)
-if(j==="pending")q="Pending Approval"
-else q=j==="approved"?"Approved":"Rejected"
+if(j==="Pending")q="Pending Approval"
+else q=j==="Approved"?"Approved":"Rejected"
 p=t.p
 return A.k3(o,A.fj(A.jj(A.a([h,new A.bl(14,o,o,o),A.fT(A.a([i,new A.bl(o,2,o,o),A.fj(A.dt(q,A.aBS(j,m),o,B.D),B.x,o,o,new A.d6(s,o,o,r,o,o,B.af),o,o,B.Kq,o)],p),B.ay,B.U,B.a0)],p),B.ai,B.U,B.a0),B.x,o,o,new A.d6(m.c,o,k,l,o,o,B.af),o,B.Kl,B.Kt,o),B.a4,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.ats(n),o,o,o,o,o,o)},
 $S:539}
@@ -89005,7 +89005,7 @@ s=1
 break}o=new A.cX(Date.now(),0,!1).Bw()
 j=new A.cX(Date.now(),0,!1).Bw()
 h=p.d
-g=A.ax(["lastUpdated",o,"requestDate",j,"requests",m,"requesterName",h==null?null:h.a,"status","pending"],k,t.X)
+g=A.ax(["lastUpdated",o,"requestDate",j,"requests",m,"requesterName",h==null?null:h.a,"status","Pending"],k,t.X)
 o=p.e
 o.jg(0,$.aTf(),t.zh).Bo(g,new A.avX(l,f,o,h))
 case 1:return A.E(q,r)}})
